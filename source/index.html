@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>HONCHO INC</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Instrument+Sans:wght@400;500;600;700&family=Saira+Stencil+One&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="side" aria-label="Main menu">
+    <div class="brand-blk"><span data-brand-logo></span><div style="min-width:0"><div class="bname" data-brand-name></div><div class="btag" data-brand-tag></div></div></div>
+    <nav class="nav" id="nav"></nav>
+    <div class="side-foot"><span class="eyebrow">Prototype · demo data</span><span class="small muted">Plan: <b id="planName">Duuka</b></span></div>
+  </aside>
+  <div class="main">
+    <header class="top" id="top"></header>
+    <main id="view"></main>
+  </div>
+</div>
+<nav class="bnav" id="bnav" aria-label="Main menu"></nav>
+<div id="modal" class="modal" hidden><div class="modal-card" id="modalCard" role="dialog" aria-modal="true" aria-label="Details"></div></div>
+<aside id="drawer" class="drawer" hidden aria-label="Notifications"></aside>
+<button id="push" class="push" hidden type="button"></button>
+<div id="toast" class="toast" hidden role="status" aria-live="polite"></div>
+<script src="app.js"></script>
+</body>
+</html>
