@@ -2,6 +2,8 @@
 
 A clickable, white-label prototype for traders who import goods from China to Uganda.
 
+**Live:** https://gorretgolden.github.io/HonchoInc/
+
 ## How to open
 
 - **Quick view:** double-click `index.html`. It opens in any browser (Chrome works best) and runs offline. Only the fonts need internet.
